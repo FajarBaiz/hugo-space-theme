@@ -14,28 +14,12 @@ Copy or git clone this theme into the sites themes folder mynewsite/themes
 
 Install with Git 
 cd mynewsite
-git clone https://github.com/fajarbaiz/hugo-space-theme.git themes/hugo-whisper-theme
-Install from .zip file 
-You can download the .zip file located here https://github.com/JugglerX/hugo-whisper-theme/archive/master.zip.
-
-Extract the downloaded .zip inside the themes folder. Rename the extracted folder from hugo-whisper-theme-master -> hugo-whisper-theme. You should end up with the following folder structure mynewsite/themes/hugo-whisper-theme
-
-Add example content 
-Copy the entire contents of the mynewsite/themes/hugo-whisper-theme/exampleSite/ folder to root folder of your Hugo site, ie mynewsite/
-
-To copy the files using terminal, make sure you are still in the projects root, ie the mynewsite folder.
-
-cp -a themes/hugo-whisper-theme/exampleSite/. .
-Update config.toml 
-After you copy the config.toml into the root folder of your Hugo site you will need to update the baseURL, themesDir and theme values in mynewsite/config.toml
+git clone https://github.com/fajarbaiz/hugo-space-theme.git && cd hugo-space-theme
+You can download the .zip file
 
 baseURL = "/"
 themesDir = "themes"
-theme = "hugo-whisper-theme"
-Run Hugo 
-After installing the theme for the first time, generate the Hugo site.
-
-You run this command from the root folder of your Hugo site ie mynewsite/
+theme = "hugo-space-theme"
 
 hugo
 For local development run Hugo’s built-in local server.
@@ -43,12 +27,5 @@ For local development run Hugo’s built-in local server.
 hugo server
 Now enter localhost:1313 in the address bar of your browser.
 
-License 
+# License 
 If you fork or copy this theme the LICENSE file and the copyright notice on line 3 (where I am listed as the author) must not be changed. You cannot just replace the copyright line with your own name. Attribution in your README.md or on your site is also welcome but not required.
-
-See Also
-Dot Hugo Documentation Theme
-Hugo Hero Theme
-Ace Documentation
-Hugo Serif Theme
-Monopriv
