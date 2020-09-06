@@ -1,0 +1,16 @@
+{{ define "main" }}
+	
+	<h3>Blog/</h3>
+	<ul>
+		{{ range .RegularPages }}
+		
+		<li>
+			<a href="{{.Permalink}}">{{.Title}}</a>
+			<span> {{.Date.Format "2006-01-02"}} </span>
+		</li>
+		{{ end }}
+	</ul>
+<!--.regularpages = menampilkan file nya aja
+	.site.regularpages = menampilkan file + folder
+	where .site.regularpages "section" "folder" =memilih isi folder untuk ditampilkan -->
+{{ end }}

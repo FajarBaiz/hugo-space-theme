@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	{{- partial "head.html" . -}}
+    </head>
+    <body>
+    		{{- partial "header.html" . -}}
+    	<div class="two-column" >
+	        {{- partial "sidebar.html" . -}}
+	    <div id="content">
+	        {{- block "main" . }}{{- end }}
+	    </div>
+	    
+	    	{{- partial "sidebar-right.html" . -}}
+	    
+        </div>
+        
+        	{{- partial "footer.html" . -}}
+        
+    </body>
+</html>
