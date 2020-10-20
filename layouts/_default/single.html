@@ -1,8 +1,23 @@
 {{ define "main" }}
-	
+
 	<h2>{{.Title}}</h2>
-	
+
 	<div>{{.Content}}</div>
 	<span>ditulis pada {{.Date.Format "2006-01-02"}} </span>
+
+  {{ with .Params.tags }}
+
+    <p>
+      Tag:
+
+      {{range .}}
+        <a class="tags" href="/tags/{{ . | urlize }}">{{ . }}</a>
+      {{end}}
+    </p>
+
+  {{ end }}
+
+
+
 
 {{ end }}

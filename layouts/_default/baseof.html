@@ -6,8 +6,8 @@
     <body>
     		{{- partial "header.html" . -}}
     	<div class="two-column" >
-	        {{- partial "sidebar.html" . -}}
 	    <div id="content">
+	    	{{- partial "sidebar.html" . -}}
 	        {{- block "main" . }}{{- end }}
 	    </div>
 	    

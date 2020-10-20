@@ -2,12 +2,36 @@
 	<div>
 		<a href="/">Fajar Nugroho</a>
 	</div>
-		<div id="theme" class="toggle-container">
-    	<div onclick="setDarkMode(true)" id="darkBtn" class="">
-    		<label class="buka" id="switch" name="theme" /></label>
-    	</div>
-    	<div onclick="setDarkMode(false)" id="lightBtn" class="is-hidden">
-            <label class="tutup" id="switch" name="theme" /></label>
-        </div>
+	  <div id=theme>
+      <div onclick=setDarkMode(true) id=darkBtn> 
+        <a>dark/</a>
+      </div>
+    <div onclick=setDarkMode(false) id=lightBtn class=is-hidden>
+      <a>/light</a>
     </div>
+  </div>
+    <script type="text/javascript">
+        //check localstorage
+  if(localStorage.getItem('preferredTheme') == 'dark') {
+      setDarkMode(true)
+  }
+
+  function setDarkMode(isDark) {
+      var darkBtn = document.getElementById('darkBtn')
+      var lightBtn = document.getElementById('lightBtn')
+
+      if(isDark) {
+          lightBtn.style.display = "block"
+          darkBtn.style.display = "none"
+          localStorage.setItem('preferredTheme', 'dark');
+      } else {
+          lightBtn.style.display = "none"
+          darkBtn.style.display = "block"
+          localStorage.removeItem('preferredTheme');
+      }
+
+      document.body.classList.toggle("darkmode");
+  }
+
+    </script>
 </header>

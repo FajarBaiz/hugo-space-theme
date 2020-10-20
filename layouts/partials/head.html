@@ -2,12 +2,24 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 
+{{ if .Description }}
+<meta name=description content="{{ .Description }}"/>
+{{ else if eq .Kind "section" }}
+<meta name=description content="Baca blog seputar Teknologi"/>
+{{ else }}
+<meta name=description content="{{ .Site.Params.Description }}"/>
+{{ end }}
+
+
+<!--favicon-->
+<link rel="icon" type="favicon" href="/assets/fav/favicon.ico">
+
 <!--css-->
-<link rel="stylesheet" type="text/css" href="/css/main.css">
-<link rel="stylesheet" type="text/css" href="/css/darkmode.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/darkmode.css">
 
 <!--js-->
-<script type="text/javascript" src="/js/darkmode.js"></script>
+<script type="text/javascript" src="/assets/js/darkmode.js"></script>
 
 <!--font-->
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">

@@ -1,11 +1,13 @@
-<div class="side-left" >
-	<div>
-	<img class="avatar" src="/img/avatar.jpg"><br>
+{{ if .IsHome }}
+	<div class="side-left" >
+		<img class="avatar" src="/assets/img/avatar2.jpg" alt="mrbaiz" >&emsp;
+			<p>Hidup itu normal.</p>
 	</div>
-	<div class="social-media" >
-		<a href="https://selembarkertas.club">Podcast</a>/<br>
-		<a href="https://twitter.com/fajar_agungn">Twitter</a>/<br>
-		<a href="https://GitHub.com/fajarbaiz">GitHub</a>
+	<br>
+	<div class="side-left" >
+				<a href="https://twitter.com/fajar_agungn">Twitter</a>/&nbsp;
+				<a href="https://github.com/fajarbaiz">GitHub</a>/&nbsp;
+				<a href="mailto:fnugroho159@gmail.com">Email</a>/&nbsp;
+				<a href="/index.xml">RSS</a>
 	</div>
-	
-</div>
+{{ end }}

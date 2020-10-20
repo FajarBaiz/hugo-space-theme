@@ -1,8 +1,8 @@
 body{
 	margin: 3% auto;
-    width: 70%;
-    font-size: 1.2rem;
-    line-height: 1.8rem;
+  width: 65%;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
 	font-family: 'Oxygen', sans-serif;
 	color: rgb(87, 87, 87);
 }
@@ -28,7 +28,7 @@ header{
 }
 
 .avatar{
-	width: 100px;
+	width: 110px;
 	border-radius: 50%
 }
 .two-column{
@@ -37,11 +37,29 @@ header{
 	justify-content: flex-start;
 }
 .side-left{
-	display: block;
-	margin-right: 40px
+	display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
+.social-media{
+    margin-left: 20px
+  }
 .side-right{
 	margin-left: 40px
+}
+.tags{
+	background: black;
+	color: white;
+	font-size: 0.8em;
+	padding: 1px;
+	padding-left: 6px;
+	padding-right: 6px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.darkmode .tags{
+	background: white;
+	color: black;
 }
 @media screen and (max-width: 991px) {
   .two-column{
@@ -55,9 +73,6 @@ header{
   	justify-content: flex-start;
   	align-items: center;
   }
-  .social-media{
-  	margin-left: 20px
-  }
 }
 
 .footer {
@@ -66,7 +81,23 @@ header{
   align-items: center;
   justify-content: flex-start;
 }
+.footer-utama{
+  font-size: 1.2rem;
+  text-align: center;
+}
 .footer img {
   margin-right: 20px;
   border-radius: 50%
 }
+
+img[src*="#post-img"] {
+	width:50%;
+ }
+
+img[src*="#git-img"] {
+	width:100%;
+ }
+
+ img[src*="#git-img-main"] {
+	width:50%;
+ }

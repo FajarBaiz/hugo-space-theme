@@ -1,6 +1,28 @@
 {{ define "main" }}
 	
-	<h3>Blog/</h3>
+	
+	
+	<h3>Baca blog/  <a href="/tags">Tags</a></h3>
+
+	{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+		<a class="tags" href="/tags/{{$name}}"> {{$name}} </a>&nbsp;
+	{{ end }}
+<style type="text/css">
+  .tags{
+    background: black;
+    color: white;
+    font-size: 0.8em;
+    padding: 1px;
+    padding-left: 6px;
+    padding-right: 6px;  
+    border-radius: 10px; 
+    text-decoration: none;
+  }
+  .darkmode .tags{
+    background: white;
+    color: black;
+  }
+</style>
 	<ul>
 		{{ range .RegularPages }}
 		
