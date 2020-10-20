@@ -32,7 +32,9 @@ Then, add the theme to the site configuration:
 Edit the newly created content file if you want, it will start with something like this:
 
 title: "My First Post"
+
 date: 2019-03-26T08:47:11+01:00
+
 draft: true
 
 
@@ -46,8 +48,11 @@ Site Configuration
 Open up config.toml in a text editor:
 
 baseURL = "https://example.org/"
+
 languageCode = "en-us"
+
 title = "My New Hugo Site"
+
 theme = "space-theme"
 
 # Build static pages
