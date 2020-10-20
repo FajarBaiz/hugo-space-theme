@@ -1,10 +1,10 @@
-![artwork1](img/artwork1.png)
+![artboard1](img/artboard1.png)
 
 ## 1. Install Hugo
 ``brew install hugo``
 
     or
-    
+
 ``port install hugo``
     
 minimal versi hugo 0.41.0
