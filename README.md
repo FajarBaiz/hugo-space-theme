@@ -1,4 +1,4 @@
-![artboard1](img/artboard1.png)
+![artboard1](static/img/artboard1.png)
 
 ## 1. Install Hugo
 ``brew install hugo``
