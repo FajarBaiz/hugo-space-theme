@@ -2,9 +2,7 @@
 
 ## 1. Install Hugo
 ``brew install hugo``
-
-    or
-
+or
 ``port install hugo``
     
 minimal versi hugo 0.41.0
@@ -26,18 +24,17 @@ To check your version of Hugo, run:
 
 Then, add the theme to the site configuration:
 
-``echo 'theme = "ananke"' >> config.toml``
+``echo 'theme = "hugo-space-theme"' >> config.toml``
 
 ## 4. Add Some Content
 ``hugo new posts/my-first-post.md`` 
 
 Edit the newly created content file if you want, it will start with something like this:
 
----
 title: "My First Post"
 date: 2019-03-26T08:47:11+01:00
 draft: true
----
+
 
 ## 5. Start the Hugo server
 ``hugo server``
