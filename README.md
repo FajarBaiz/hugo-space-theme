@@ -62,5 +62,5 @@ It is simple. Just call:
 
 Output will be in ./public/ directory by default (-d/--destination flag to change it, or set publishdir in the config file).
 
-# License 
-If you fork or copy this theme the LICENSE file and the copyright notice on line 3 (where I am listed as the author) must not be changed. You cannot just replace the copyright line with your own name. Attribution in your README.md or on your site is also welcome but not required.
+# DEMO
+[https://fajars.space](https://fajars.space)
