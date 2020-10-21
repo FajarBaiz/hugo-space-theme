@@ -1,4 +1,8 @@
 ![artboard1](static/assets/img/artboard1.png)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![GitHub version](https://img.shields.io/github/release/Lednerb/bilberry-hugo-theme/all.svg?style=flat-square)](https://github.com/FajarBaiz/hugo-theme-space/releases)
+[![License](https://img.shields.io/github/license/Lednerb/bilberry-hugo-theme.svg?style=flat-square)](https://github.com/FajarBaiz/hugo-theme-space/blob/master/LICENSE.md)
+[![GitHub stars](https://img.shields.io/github/stars/Lednerb/bilberry-hugo-theme.svg?style=social&label=Stars)](https://github.com/FajarBaiz/hugo-theme-space)
 
 ## Features
 * Simple and easy to customize
