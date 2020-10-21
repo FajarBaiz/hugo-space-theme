@@ -39,7 +39,7 @@ hugo new blog/:blog-post.md
 
 ``blog-post.md`` is the name of the file of your new post.
 
-will be saved in the ``contents/posts/:blog-post.md``
+will be saved in the ``content/posts/:blog-post.md``
 
 ## Configuring the Home Page
 ```

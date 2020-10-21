@@ -1,7 +1,7 @@
 {{ define "main" }}
-	
-	
-	
+
+
+
 	<h3>Baca blog/  <a href="/tags">Tags</a></h3>
 
 	{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
@@ -14,8 +14,8 @@
     font-size: 0.8em;
     padding: 1px;
     padding-left: 6px;
-    padding-right: 6px;  
-    border-radius: 10px; 
+    padding-right: 6px;
+    border-radius: 10px;
     text-decoration: none;
   }
   .darkmode .tags{
@@ -24,8 +24,9 @@
   }
 </style>
 	<ul>
-		{{ range .RegularPages }}
-		
+
+		{{ range .Site.RegularPages }}
+
 		<li>
 			<a href="{{.Permalink}}">{{.Title}}</a>
 			<span> {{.Date.Format "2006-01-02"}} </span>
@@ -33,6 +34,6 @@
 		{{ end }}
 	</ul>
 <!--.regularpages = menampilkan file nya aja
-	.site.regularpages = menampilkan file + folder
-	where .site.regularpages "section" "folder" =memilih isi folder untuk ditampilkan -->
+		.Site.RegularPages = menampilkan file + folder
+		where .Site.RegularPages "section" "folder" =memilih isi folder untuk ditampilkan -->
 {{ end }}
