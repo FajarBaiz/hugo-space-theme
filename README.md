@@ -1,20 +1,11 @@
 ![artboard1](static/assets/img/artboard1.png)
 
 ## Features
-Features in the ori.:
-
 * Simple and easy to customize
-* Concentrated on reading and writing (find a Markdown editor then) experience
-Mobile-friendly & widescreen-friendly
-* Flexible commenting control
-Features in this ported version:
-
-* Add Gitalk and Valine intergration.
-* Customizable color scheme. (Some bug in original version, fixed.)
-* Firefox-friendly. (CSS issue in original version, fixed.)
+* Dark mode
 
 ## Getting started
-*If your website is using Git as version control, please do as follows:
+* If your website is using Git as version control, please do as follows:
 
 1. Fetch the theme dir.
 
