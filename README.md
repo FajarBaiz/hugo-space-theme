@@ -24,7 +24,7 @@ open your hugo website, then run the terminal:
 
 2. then open config.toml in our hugo website dir, add the ``theme = "space"``
 
-![configtoml](assets/img/config.png)
+![configtoml](static/assets/img/config.png)
 
 3. Finally, run:
 
