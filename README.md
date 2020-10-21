@@ -20,15 +20,18 @@ Features in this ported version:
 
 open your hugo website, then run the terminal:
 
-``git submodule add https://github.com/FajarBaiz/hugo-theme-space.git themes/hugo-theme-space``
-
+```
+git submodule add https://github.com/FajarBaiz/hugo-theme-space.git themes/space
+```
 2. then open config.toml in our hugo website dir, add the ``theme = "space"``
 
 ![configtoml](static/assets/img/config.png)
 
 3. Finally, run:
 
-``hugo server -D``
+```
+hugo server -D
+```
 
 # DEMO
 [https://fajars.space](https://fajars.space)
