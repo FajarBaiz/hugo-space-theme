@@ -14,17 +14,19 @@ Features in this ported version:
 * Firefox-friendly. (CSS issue in original version, fixed.)
 
 ## Getting started
-At the root of your Hugo project, run:
+*If your website is using Git as version control, please do as follows:
+
+1. Fetch the theme dir.
+
+open your hugo website, then run the terminal:
 
 ``git submodule add https://github.com/FajarBaiz/hugo-theme-space.git themes/hugo-theme-space``
-Next, copy the contents of the exampleSite/config.toml to your site's config.toml. Make sure to read all the comments, as there a few nuances with Hugo themes that require some changes to that file.
 
-The most important change you will need to make to the config.toml is removing this line:
+2. then open config.toml in our hugo website dir, add the ``theme = "space"``
 
-themesDir = "../../" 
-It only exists in the example site so that the demo can function properly.
+![configtoml](assets/img/config.png)
 
-Finally, run:
+3. Finally, run:
 
 ``hugo server -D``
 
