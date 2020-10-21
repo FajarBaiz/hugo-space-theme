@@ -8,4 +8,4 @@ tags:
 - self-reminder
 ---
 
-![main](../../assets/img/artboard1.png)
+![main](../../assets/img/artboard1.png#post-img-small)
