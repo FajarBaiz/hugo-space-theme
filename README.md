@@ -34,7 +34,7 @@ hugo server -D
 ```
 ## Creating a blog post
 ```
-hugo new blog/:blog-post.md
+hugo new posts/:blog-post.md
 ```
 
 ``blog-post.md`` is the name of the file of your new post.
