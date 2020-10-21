@@ -32,6 +32,30 @@ git submodule add https://github.com/FajarBaiz/hugo-theme-space.git themes/space
 ```
 hugo server -D
 ```
+## Creating a blog post
+```
+hugo new blog/:blog-post.md
+```
+
+``blog-post.md`` is the name of the file of your new post.
+
+will be saved in the ``contents/posts/:blog-post.md``
+
+## Configuring the Home Page
+```
+---
+title: "blog-post"
+date: 2020-08-20
+Description: ""
+tags:
+- sharing
+- motivational
+- self-reminder
+---
+
+```
+## Screenshot
+
 
 # DEMO
 [https://fajars.space](https://fajars.space)
